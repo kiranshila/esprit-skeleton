@@ -1,5 +1,5 @@
 {:deps {org.clojure/clojurescript {:mvn/version "1.10.764"}
-        esprit {:local/root "0.7.0"}}
+        esprit {:mvn/version "0.8.0"}}
  :paths ["src" "resources"]
  :aliases {:build {:main-opts ["-m" "cljs.main"
                                "-co" "@build-opts.edn:@secrets.edn"
