@@ -2,7 +2,7 @@
 
 Checkout [Esprit](https://github.com/mfikes/esprit) for more info.
 
-Many aliases are provided to automate the majority of the "embedded workflow". These can easily be incorportated into a Makefile if need be.
+Many aliases are provided to automate the majority of the "embedded workflow". These can easily be incorporated into a Makefile if need be.
 
 To erase the ESP32:
 ``` shell
