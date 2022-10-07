@@ -13,4 +13,5 @@
                                "-f" "out/main.bin"]}
            :repl {:main-opts ["-m" "cljs.main"
                               "-re" "esprit"
+                              "-ro" "@repl-opts.edn"
                               "-r"]}}}

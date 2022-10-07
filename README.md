@@ -31,7 +31,7 @@ clj -A:flash
 ```
 
 To connect to the REPL:
-(You will probably need to change the endpoint address in `resources/config.edn`)
+(You will probably need to change the endpoint address in `resources/repl-opts.edn`)
 ``` shell
 clj -A:repl
 ```

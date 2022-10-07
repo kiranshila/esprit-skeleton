@@ -1,2 +1,1 @@
-{:board-file "esprit-board.edn"
- :endpoint-address "10.0.0.1"}
+{:board-file "esprit-board.edn"}
