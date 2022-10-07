@@ -6,32 +6,32 @@ Many aliases are provided to automate the majority of the "embedded workflow". T
 
 To erase the ESP32:
 ``` shell
-clj -A:erase
+clj -M:erase
 ```
 
 To bootstrap Espruino onto the ESP32:
 ``` shell
-clj -A:bootstrap
+clj -M:bootstrap
 ```
 
 To compile the CLJS build:
 (You will probably need to change the WiFi settings in `resources/secrets.edn`)
 ``` bash
-clj -A:build
+clj -M:build
 ```
 
 To create the ROM:
 ``` bash
-clj -A:rom
+clj -M:rom
 ```
 
 To flash the ROM to the ESP32:
 ``` shell
-clj -A:flash
+clj -M:flash
 ```
 
 To connect to the REPL:
 (You will probably need to change the endpoint address in `resources/repl-opts.edn`)
 ``` shell
-clj -A:repl
+clj -M:repl
 ```
